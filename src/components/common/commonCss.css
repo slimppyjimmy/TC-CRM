@@ -1,0 +1,25 @@
+.public-tab-nav{
+  padding: 0;
+  margin: 0;
+  height: 40px;
+  border-bottom: 2px solid #1E9FFF;
+}
+.public-tab-nav>li{
+  float: left;
+  /*padding: 15px;*/
+  height: 30px;
+  line-height: 30px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #666;
+  border-radius: 5px 5px 0 0;
+}
+.public-tab-nav > li.router-link-active{
+  color: white!important;
+  background-color: rgba(29, 160, 255, 0.89);
+}
+
+
+
+

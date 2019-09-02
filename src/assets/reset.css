@@ -1,0 +1,71 @@
+body, ul, li, h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  color: #424242;
+  font-size: 14px;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #424242;
+}
+
+img {
+  width: 100%;
+  font-size: 0;
+  border: none;
+  vertical-align: middle;
+}
+
+i {
+  font-style: normal;
+}
+
+em, strong {
+  color: #e50000;
+  font-style: normal;
+}
+
+input, textarea, button {
+  outline: none;
+  border: none;
+}
+
+textarea {
+  resize: none;
+}
+
+input::placeholder {
+  letter-spacing: 1px;
+}
+
+/*清除浮动*/
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix::after {
+  content: "";
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+
+#app{
+  height: 100%;
+}
